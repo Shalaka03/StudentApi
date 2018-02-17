@@ -15,6 +15,10 @@ namespace student.webapi.data.Repositories
             students.Add(new Student { Id = 2, Name = "Sita1", Address = "Thane2" });
 
         }
+        /// <summary>
+        /// this method is use to get all students
+        /// </summary>
+        /// <returns></returns>
         public List<Student> GetAllStudents()
         {
             return students;
