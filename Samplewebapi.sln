@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student.webapi.core", "stud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student.webapi.data", "student.webapi.data\student.webapi.data.csproj", "{0F1DE3A9-0D0F-4FB1-A279-21C1C08C94DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "MvcClient\MvcClient.csproj", "{C4947FC3-2768-45B3-86B8-2934451919C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0F1DE3A9-0D0F-4FB1-A279-21C1C08C94DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1DE3A9-0D0F-4FB1-A279-21C1C08C94DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1DE3A9-0D0F-4FB1-A279-21C1C08C94DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4947FC3-2768-45B3-86B8-2934451919C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4947FC3-2768-45B3-86B8-2934451919C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4947FC3-2768-45B3-86B8-2934451919C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4947FC3-2768-45B3-86B8-2934451919C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
