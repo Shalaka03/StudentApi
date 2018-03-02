@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using WebApiContrib.Formatting.Jsonp;
 
 namespace Samplewebapi
 {
@@ -19,6 +21,16 @@ namespace Samplewebapi
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+            //1
+            //EnableCorsAttribute abd = new EnableCorsAttribute();
+            //config.EnableCors(abd);
+          
+            
+            
+            //2
+            var jsonPFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
+
+           config.Formatters.Insert(0, jsonPFormatter);
 
 
             config.Routes.MapHttpRoute(
